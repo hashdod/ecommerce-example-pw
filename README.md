@@ -5,12 +5,14 @@ This project runs against the [QA practice site](https://qa-practice.netlify.app
 By default, tests run in parallel on Chromium, Firefox and Webkit (Safari).
 
 **To run:**
-`npm i
-npx playwright install
-npx playwright test`
+`npm i`
+`npx playwright install`
+`npx playwright test`
 
 Chromium: `npx playwright test --project=chromium`
+
 Firefox: `npx playwright test --project=firefox`
+
 Webkit: `npx playwright test --project=webkit`
 
 ### Reporting
